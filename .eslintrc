@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "xo",
+    "prettier"
+  ],
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "camelcase": "off",
+    "capitalized-comments": "off",
+    "valid-jsdoc": "off"
+  },
+  "plugins": [
+    "prettier"
+  ]
+}
